@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Top Bar */
+.top-bar {
+    background: #f26522;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Navbar */
+.navbar {
+    background: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.nav-right span {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: url("../images/hero.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+/* Dark overlay */
+.overlay {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+/* Hero Title */
+.overlay h1 {
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+/* Search Box */
+.search-box {
+    margin-top: 30px;
+}
+
+.search-box input {
+    width: 400px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+/* Advanced search text */
+.advanced {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4;
+}
